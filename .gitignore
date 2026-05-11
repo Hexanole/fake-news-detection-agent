@@ -1,0 +1,42 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Secrets
+.env
+*.env
+
+# Data / datasets
+data/fakeddit/
+data/images/
+data/raw/
+data/processed/
+*.tsv
+*.csv
+
+# Outputs
+outputs/
+logs/
+inbox/
+processed/
+failed/
+
+# Models
+models/
+*.keras
+*.h5
+*.pt
+*.pth
+*.pkl
+*.joblib
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
